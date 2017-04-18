@@ -9,8 +9,11 @@ cam = gamera.new(0, 0, 1, 1)
  *: box on goal
  #: wall
 .: goal
--: floor
+-: floor (blank space also acceptable)
 ]]
+-- the only place I could find the classic levels online was
+--http://mujweb.cz/peter.mlich/hry/sokoban.htm
+-- which doesn't have them in this format, so I manually copied down the first 3.
 levels = {
 [[
 ----#####----------
